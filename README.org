@@ -1,0 +1,57 @@
+#+TITLE: Solanaut 🚀
+#+AUTHOR: Azizul Islam
+#+DESCRIPTION: Exploring Solana Native Programs and Advanced Rust Features
+
+* Welcome to Solanaut 🚀
+  **Solanaut** is your space-faring vessel as you journey through the cosmos of Rust and Solana, learning advanced Rust features and exploring Solana's native programs. Whether you're a seasoned developer or a newbie like me, this repo is designed to help you navigate the complex and exciting world of blockchain development with Solana.
+
+* 🚀 Naming History
+  The name **Solanaut** is inspired by the idea of an astronaut navigating through the unknown reaches of space. Just as astronauts explore the vast cosmos, **Solanaut** represents our journey through the expansive world of Solana and Rust. The combination of "Solana" (the blockchain platform) and "naut" (from "astronaut") symbolizes our mission to explore, learn, and conquer the challenges of developing on Solana using Rust.
+
+* 🌟 Project Goals
+  This repository serves as a learning tool and project base for:
+
+  - *Exploring Solana Native Programs*: Delving into Solana’s native programs, from basics to advanced concepts.
+  - *Learning Advanced Rust Features*: Covering advanced Rust features like macros, concurrency, and memory safety.
+  - *Building and Deploying Solana Programs*: Writing, compiling, and deploying programs on the Solana blockchain.
+  - *Documenting the Journey*: Sharing findings, challenges, and solutions as a resource for others on a similar path.
+
+* 📚 Learning Path
+  Here's an outline of the learning journey you'll embark on with **Solanaut**:
+
+  **1. Rust Fundamentals**
+     - Brush up on Rust basics, focusing on what’s essential for Solana development.
+     - Explore Rust's memory model, ownership, and concurrency features.
+
+  **2. Advanced Rust Features**
+     - Dive into Rust macros, including procedural and declarative macros.
+     - Explore Rust's async programming model and how it can be leveraged in Solana.
+     - Learn about Rust’s powerful error handling mechanisms and patterns.
+
+  **3. Solana Native Programs**
+     - Introduction to Solana and its architecture.
+     - Writing your first Solana native program in Rust.
+     - Understanding Solana’s account model and how it interacts with programs.
+
+  **4. Solana SDK & Deployment**
+     - Set up the Solana development environment.
+     - Deploying programs to Solana Devnet and exploring them using Solana Explorer.
+     - Interacting with Solana programs using the Solana CLI and custom clients.
+
+  **5. Building Projects**
+     - Start with small projects like token transfers, data storage, and custom account management.
+     - Progress to more complex applications, integrating Rust’s advanced features.
+     - Experiment with performance optimization and best practices for Solana programs.
+
+* 🚧 Work in Progress
+  **Solanaut** is a work in progress. Contributions, suggestions, and discussions are welcome! Together, we can explore new frontiers and help each other grow as developers.
+
+* 🧑‍🚀 Join the Mission
+  Ready to become a Solanaut? Clone this repository, start exploring, and contribute your own discoveries! Let’s embark on this interstellar journey together.
+
+  #+BEGIN_SRC sh
+  git clone https://github.com/azizul7m/solanaut.git
+  #+END_SRC
+
+* 📜 License
+  This project is licensed under the MIT License - see the [[./LICENSE][LICENSE]] file for details.
