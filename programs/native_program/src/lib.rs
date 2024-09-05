@@ -1,14 +1,17 @@
-pub fn add(left: usize, right: usize) -> usize {
-    left + right
-}
+use solana_program::{
+    account_info::{next_account_info, AccountInfo},
+    entrypoint,
+    entrypoint::ProgramResult,
+    msg,
+    pubkey::Pubkey,
+};
 
-#[cfg(test)]
-mod tests {
-    use super::*;
+entrypoint!(ps_ins);
 
-    #[test]
-    fn it_works() {
-        let result = add(2, 2);
-        assert_eq!(result, 4);
-    }
+pub fn ps_ins(_pm_id: &Pubkey, acc: &[AccountInfo], _data: &[u8]) -> ProgramResult {
+    let acc_itter = &mut acc.iter();
+    let account = next_account_info(acc_itter)?;
+    let signer = next_account_info(acc_itter)?;
+    msg!("Hello native program");
+    Ok(())
 }
