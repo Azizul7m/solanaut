@@ -2,5 +2,5 @@
 resolver = "1"
 members = [
     "programs/native_program",
-    "client",
+    "client/rust",
 ]
