@@ -1,10 +1,6 @@
 [workspace]
 resolver = "1"
 members = [
-    "programs/native_program",
-<<<<<<< HEAD
-    "client/rust",
-=======
-    "client/rust_client",
->>>>>>> 9f61fd60d2c6ede17973af84d9c34c22834afa6a
+   "programs/native_program",
+   "client/rust_client",
 ]
