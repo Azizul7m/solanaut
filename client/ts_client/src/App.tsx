@@ -1,15 +1,19 @@
-import React, { useState } from "react";
+import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
 import "./App.css";
-import { Wallet } from "./components/Wallet";
+import { useWallet } from "@solana/wallet-adapter-react";
+import { clusterApiUrl, Connection, LAMPORTS_PER_SOL } from "@solana/web3.js";
+import { useEffect, useState } from "react";
 
 function App() {
-  const [count, setCount] = useState(0);
+  const {publicKey} = useWallet();
+  const connection = new Connection(clusterApiUrl("devnet"));
+  const [balance, setBalance] = useState<number | null>(null);
   return (
-    <div>
-      <div>{count}</div>
-        <button>Submit</button>
-      <Wallet />
-    </div>
+    <>
+      <main>
+        <WalletMultiButton />
+      </main>
+    </>
   );
 }
 
