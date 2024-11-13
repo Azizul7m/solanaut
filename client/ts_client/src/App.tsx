@@ -12,6 +12,8 @@ import {
 } from "@solana/web3.js";
 import { FormEvent, useEffect, useState } from "react";
 
+const program_id = "HMduVRLbubXtJcYRbDKpUWdD4uqZsLi6ZiV546hByYDR";
+
 function App() {
   const { publicKey, sendTransaction } = useWallet();
   const connection = new Connection(clusterApiUrl("devnet"));

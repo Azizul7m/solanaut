@@ -7,7 +7,12 @@ edition = "2021"
 no-entrypoint = []
 
 [dependencies]
-solana-program = "~1.17.12"
+solana-program = { version = "=1.18.17", default-features = false }
+
+
+[profile.release]
+lto = true
+
 
 [lib]
 name = "native_program"
